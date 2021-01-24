@@ -1,3 +1,6 @@
+@import '../../Component/component.scss';
+@import '../../View/Home/home.scss';
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +14,72 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.swal-modal {
+  width: 400px;
+  border-radius: 8px;
+
+  .swal-text {
+    text-align: center !important;
+    margin-bottom: 41px;
+  }
+  .swal-button--danger {
+    border: 1px solid #3ab795;
+    background-color: #3ab795;
+    color: #ffff !important;
+    outline: none !important;
+    text-decoration: none;
+    background: #2a9d89 !important ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: #2a9d89 !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .swal-button--confirm {
+    background: #2a9d89;
+    border: 1px solid #3ab795;
+    color: #737a91;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    &:active,
+    &:hover {
+      background: #2a9d89;
+    }
+  }
+  .swal-title {
+    font-size: 20px;
+    color: #000;
+    letter-spacing: -0.02px;
+  }
+  .swal-footer {
+    display: flex;
+    justify-content: center;
+    button {
+      min-width: 100px;
+      color: #ffff;
+      background-color: #3ab795;
+      border-color: #3ab795;
+      box-shadow: #3ab795;
+    }
+  }
+  .swal-icon {
+    border-width: unset;
+    border-style: unset;
+    border-radius: unset;
+    width: 48px;
+    height: 48px;
+    margin: 40px auto 0;
+
+    &.swal-icon--error {
+      background-image: url('../images/errorIcon.svg');
+      background-size: 48px 48px;
+      background-repeat: no-repeat;
+      text-align: center;
+      display: block;
+
+      & > .swal-icon--error__x-mark {
+        display: none;
+      }
+    }
+  }
 }

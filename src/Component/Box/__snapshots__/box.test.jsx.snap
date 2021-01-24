@@ -6,6 +6,11 @@ exports[`renders a properly:
 <div
   class="box "
 >
+  <div
+    class="box_header"
+  >
+    Roman Numeral Converter
+  </div>
   <div />
 </div>
 `;

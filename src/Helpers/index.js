@@ -60,11 +60,11 @@ export const RomanNumerals = {
   toRoman: (numerals) => {
     if (!numerals) {
       swal('Roman Numerals', 'A value is required', 'error');
-      return false;
+      return '';
     }
-    if (!/^(([1-4][0-9]{0,3})|([1-9][0-9]{0,2})|(4999))*$/.test(numerals)) {
+    if (!/^(([1-4][0-9]{0,3})|([1-9][0-9]{0,2})|(4999))*$/.test(numerals) || numerals > 4999) {
       swal('Roman Numerals', 'Try a value that is below 4999', 'error');
-      return false;
+      return '';
     }
     const values = getNumberPlaceValue(numerals);
 
@@ -74,13 +74,13 @@ export const RomanNumerals = {
   fromRoman: (input) => {
     if (!input) {
       swal('Roman Numerals', 'A value is required', 'error');
-      return false;
+      return '';
     }
     if (
       !/^m*(?:d?C{0,3}|c[md])(?:l?x{0,3}|x[cl])(?:v?i{0,3}|i[xv])$/.test(input)
     ) {
       swal('Roman Numerals', `${input} is an invalid roman numeral`, 'error');
-      return false;
+      return '';
     }
     const result = getRomanPlaceValue(input).map((val) => {
       if (val.length === 2) {

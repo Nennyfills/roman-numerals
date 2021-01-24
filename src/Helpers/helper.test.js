@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { RomanNumerals, getNumberPlaceValue, getRomanPlaceValue } from '.';
 
 describe('Test helper function', () => {

@@ -16,7 +16,6 @@
       .top, .down {
         list-style-type: none;
         padding: 0 1rem;
-        // border
       }
       .top_line{
         border-left: solid 2px #3ab795;
@@ -31,6 +30,7 @@
   .home_action {
     .action_number,
     .action_numerals {
+      width: 25rem;
       margin-top: 1rem;
       display: flex;
       justify-content: space-around;

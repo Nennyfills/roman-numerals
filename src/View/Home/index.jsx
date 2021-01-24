@@ -4,7 +4,6 @@ import Box from '../../Component/Box';
 import Button from '../../Component/Button';
 import Input from '../../Component/Input';
 import { RomanNumerals } from '../../Helpers';
-import './home.scss';
 
 const Home = () => {
   const [letter, setLetter] = useState('');
@@ -52,7 +51,7 @@ const Home = () => {
               inputId="number-convert"
               type="number"
               name="number"
-              label="Enter a number"
+              label="Enter a valid number"
               value={number}
               placeholder=""
               handleChange={handleChange}

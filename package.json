@@ -19,7 +19,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "coverage": "react-scripts test --env=jsdom --coverage",
-    "test:unit:ci": "jest --ci --runInBand --reporters=default --reporters=jest-junit",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject",
     "lint": "eslint src"

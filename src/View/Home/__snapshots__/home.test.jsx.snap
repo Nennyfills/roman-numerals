@@ -10,6 +10,11 @@ exports[`Home Page renders properly:
     class="box "
   >
     <div
+      class="box_header"
+    >
+      Roman Numeral Converter
+    </div>
+    <div
       class="home_action"
     >
       <div
@@ -55,7 +60,7 @@ exports[`Home Page renders properly:
           <label
             for="number-convert"
           >
-            Enter a number
+            Enter a valid number
           </label>
           <input
             autocomplete="off"
