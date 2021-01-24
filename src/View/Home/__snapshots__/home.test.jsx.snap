@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page renders properly: 
+      <div />
+     1`] = `
+<div
+  class="home"
+>
+  <div
+    class="box "
+  >
+    <div
+      class="home_action"
+    >
+      <div
+        class="action_numerals"
+      >
+        <div
+          class="input"
+        >
+          <label
+            for="letter-convert"
+          >
+            Enter a valid roman numerals
+          </label>
+          <input
+            autocomplete="off"
+            data-testid="letter-convert"
+            id="letter-convert"
+            name="letter"
+            placeholder=""
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="button"
+        >
+          <button
+            data-testid="letter-convert-btn"
+            disabled=""
+            id="letter-convert-btn"
+            type="submit"
+          >
+            Convert
+          </button>
+        </div>
+      </div>
+      <div
+        class="action_number"
+      >
+        <div
+          class="input"
+        >
+          <label
+            for="number-convert"
+          >
+            Enter a number
+          </label>
+          <input
+            autocomplete="off"
+            data-testid="number-convert"
+            id="number-convert"
+            name="number"
+            placeholder=""
+            type="number"
+            value=""
+          />
+        </div>
+        <div
+          class="button"
+        >
+          <button
+            data-testid="number-convert-btn"
+            disabled=""
+            id="number-convert-btn"
+            type="submit"
+          >
+            Convert
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Button component renders a message: 
+      <div />
+     1`] = `
+<div
+  class="button"
+>
+  <button
+    data-testid="text"
+    disabled=""
+    id="text"
+    type="submit"
+  >
+    name
+  </button>
+</div>
+`;

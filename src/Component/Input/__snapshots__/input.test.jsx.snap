@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Input component renders a message: 
+      <div />
+     1`] = `
+<div
+  class="input"
+>
+  <label
+    for="test"
+  />
+  <input
+    autocomplete="off"
+    data-testid="test"
+    id="test"
+    name=""
+    placeholder=""
+    type="text"
+    value=""
+  />
+</div>
+`;

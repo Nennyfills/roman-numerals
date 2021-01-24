@@ -1,0 +1,53 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "globals": {
+    "after": true,
+    "afterAll": true,
+    "afterEach": true,
+    "before": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "describe": true,
+    "it": true,
+    "test":true,
+    "shallow": true,
+    "mount": true,
+    "expect": true,
+    "jest": true,
+    "render": true,
+    "sinon": true,
+    "toJson": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "quotes": [2, "single"],
+    "comma-dangle": 0,
+    "indent": [2, 2],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["**/*.test.{js,jsx}", "tests/**/*.js"] }
+    ],
+    "react/static-property-placement": [1, "static public field"],
+    "react/state-in-constructor": 0,
+    "react/react-in-jsx-scope": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {}
+    }
+  }
+}

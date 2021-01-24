@@ -1,0 +1,35 @@
+.input {
+  input,
+  label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 8px;
+    padding-bottom: 8px;
+    color: #222222;
+    text-align: left;
+  }
+  input {
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0.6rem 0.5rem 0.8rem 0;
+    border-radius: 5px;
+    border: 1px solid #dfe2e6;
+    font-style: normal;
+    padding: 12px;
+    font-weight: normal;
+    text-align: left;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+    &[type='number'] {
+      -moz-appearance: textfield;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

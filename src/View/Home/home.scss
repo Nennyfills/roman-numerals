@@ -1,0 +1,40 @@
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .home_solution {
+    border: 1px solid #3ab795;
+    min-height: 1rem;
+    width: 20rem;
+    text-transform: uppercase;
+    .solution_top, .solution_down {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .top, .down {
+        list-style-type: none;
+        padding: 0 1rem;
+        // border
+      }
+      .top_line{
+        border-left: solid 2px #3ab795;
+        height:1rem;
+        margin-left: .3rem;
+      }
+      .down{
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .home_action {
+    .action_number,
+    .action_numerals {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+  }
+}
