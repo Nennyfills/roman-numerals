@@ -83,3 +83,43 @@ code {
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .home {
+    .home_action {
+      .action_number,
+      .action_numerals {
+        width: auto;
+        margin-top: 1rem;
+        display: block;
+        justify-content: unset;
+        align-items: unset;
+      }
+    }
+  }
+  .input {
+    input {
+      width: auto;
+      padding-bottom: 8px;
+    }
+    label {
+      text-align: center;
+    }
+    input,
+    label {
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 8px;
+    }
+  }
+  .box {
+    .box_header {
+      font-weight: 400;
+      letter-spacing: -0.006px;
+      font-size: 20px;
+      color: #3ab795;
+      text-align: center;
+      margin: 1rem 0.5rem 3rem 0.5rem;
+    }
+  }
+}

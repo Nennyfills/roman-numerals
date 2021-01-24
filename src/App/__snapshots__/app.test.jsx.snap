@@ -10,7 +10,7 @@ exports[`renders a properly:
     class="home"
   >
     <div
-      class="box "
+      class="box"
     >
       <div
         class="box_header"

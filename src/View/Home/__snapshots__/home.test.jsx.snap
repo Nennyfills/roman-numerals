@@ -7,7 +7,7 @@ exports[`Home Page renders properly:
   class="home"
 >
   <div
-    class="box "
+    class="box"
   >
     <div
       class="box_header"
