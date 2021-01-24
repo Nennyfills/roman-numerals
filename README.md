@@ -1,7 +1,8 @@
 # roman numerals
 Roman numerals is a numeral app that aid children learn roman numerals.
 
-[![Build Status](https://travis-ci.com/Nennyfills/roman_numerals.svg?branch=main)](https://travis-ci.org/Nennyfills/roman-numerals)
+[![Build Status](https://travis-ci.com/Nennyfills/roman-numerals.svg?branch=main)](https://travis-ci.com/Nennyfills/roman-numerals)
+[![Build Status](https://travis-ci.org/Nennyfills/roman-numerals.svg?branch=main)](https://travis-ci.org/Nennyfills/roman-numerals)
 [![Coverage Status](https://coveralls.io/repos/github/Nennyfills/roman-numerals/badge.svg?branch=main)](https://coveralls.io/github/Nennyfills/roman-numerals?branch=main)
 
 ### Goto Application
