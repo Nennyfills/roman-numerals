@@ -2,10 +2,9 @@ language: node_js
 node_js:
   - 14
 cache:
-  directories:
-  - node_modules
+  npm: false
 script:
-  - npm coverage
+  - npm test -- --coverage
   - npm run build
 after_script: 
   - npm run coveralls
