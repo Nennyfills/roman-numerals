@@ -59,7 +59,7 @@ describe('Test helper function', () => {
     expect(RomanNumerals.fromRoman('xxx')).not.toEqual(20);
   });
   it('check if the value is not a string', () => {
-    expect(RomanNumerals.fromRoman(5556)).toEqual(expect.objectContaining({}));
+    expect(RomanNumerals.fromRoman('5556')).toEqual(expect.objectContaining({}));
   });
   it('check more complicated value', () => {
     expect(RomanNumerals.fromRoman('cdxliv')).toEqual(444);

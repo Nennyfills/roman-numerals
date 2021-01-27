@@ -77,9 +77,9 @@ export const RomanNumerals = {
       return '';
     }
     if (
-      !/^m*(?:d?C{0,3}|c[md])(?:l?x{0,3}|x[cl])(?:v?i{0,3}|i[xv])$/.test(input)
+      !/^m*(?:d?C{0,3}|c[md])(?:l?x{0,3}|x[cl])(?:v?i{0,3}|i[xv])$/.test(input.toLowerCase())
     ) {
-      swal('Roman Numerals', `${input} is an invalid roman numeral`, 'error');
+      swal('Roman Numerals', `${input.toLowerCase()} is an invalid roman numeral`, 'error');
       return '';
     }
     const result = getRomanPlaceValue(input).map((val) => {
