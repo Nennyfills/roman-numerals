@@ -1,11 +1,12 @@
 # roman numerals
 Roman numerals is a numeral app that aid children learn roman numerals.
 
-[![Build Status](https://travis-ci.org/Nennyfills/roman-numerals.svg?branch=master)](https://travis-ci.org/Nennyfills/roman-numerals)
-[![Coverage Status](https://coveralls.io/repos/github/Nennyfills/roman-numerals/badge.svg?branch=master)](https://coveralls.io/github/Nennyfills/roman-numerals?branch=master)
+[![Build Status](https://travis-ci.com/Nennyfills/roman-numerals.svg?branch=main)](https://travis-ci.com/Nennyfills/roman-numerals)
+[![Coverage Status](https://coveralls.io/repos/github/Nennyfills/roman-numerals/badge.svg?branch=main)](https://coveralls.io/github/Nennyfills/roman-numerals?branch=main)
 
 ### Goto Application
 
+[Basic-roman-numerals](https://basic-roman-numerals.netlify.app/)
 
 ### Technology Stack
 
@@ -39,3 +40,5 @@ start build
 ### `npm run start`
 Starts the app in the development mode
 
+### `npm run test`
+Test the app
